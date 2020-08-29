@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Mirapedia</title>
+
+        <link
+            rel="stylesheet"
+            href="font-awesome-4.7.0/css/font-awesome.min.css"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Alata&family=Rubik&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+    </head>
+    <body>
+        <nav>
+            <div class="logo-wrapper">
+                <img src="charlie_brown.jpg" alt="tokopedia" />
+            </div>
+
+            <div>KATEGORI</div>
+
+            <div class="search">
+                <form action="">
+                    <input
+                        type="text"
+                        name="search"
+                        id="search"
+                        placeholder="Cari sepeda lipat"
+                    />
+                    <button class="button-search">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </button>
+                    <div class="popup-search">
+                        <h3>Populer</h3>
+                        <ul>
+                            <li class="popup-search-list">sepeda lipat</li>
+                            <li class="popup-search-list">iphone 11</li>
+                            <li class="popup-search-list">meja belajar</li>
+                            <li class="popup-search-list">laptop game</li>
+                            <li class="popup-search-list">oppo a31</li>
+                            <li class="popup-search-list">tas laptop</li>
+                            <li class="popup-search-list">lcd tv</li>
+                            <li class="popup-search-list">smarttv samsung</li>
+                        </ul>
+                    </div>
+                </form>
+            </div>
+
+            <div><i class="fas fa-shopping-cart"></i></div>
+
+            <div>
+                <button class="secondary">Masuk</button>
+                <button class="primary">Daftar</button>
+            </div>
+        </nav>
+
+        <main>
+            <div class="carousel">
+                <div class="img-wrapper">
+                    <img src="banner-biru.webp" alt="banner" />
+                </div>
+                <div class="img-wrapper">
+                    <img src="banner-hijau.webp" alt="banner" />
+                </div>
+                <div class="img-wrapper">
+                    <img src="banner-kuning.webp" alt="banner" />
+                </div>
+                <div class="img-wrapper">
+                    <img src="banner-merah.webp" alt="banner" />
+                </div>
+            </div>
+
+            <div class="pilihan-tagihan">
+                <div class="kategori-pilihan">
+                    <div class="sub-judul">
+                        <h3 class="sub-judul-h3">Kategori Pilihan</h3>
+                    </div>
+                </div>
+                <div class="tagihan">
+                    <div class="sub-judul">
+                        <h3 class="sub-judul-h3">Top Up & Tagihan</h3>
+                        <a href="http://">Lihat Semua</a>
+                    </div>
+
+                    <div class="form-tagihan">
+                        <div class="tab-container">
+                            <div class="tab-head">
+                                <label for="pulsa">Pulsa</label>
+                                <label for="paket-data">Paket Data</label>
+                                <label for="paket-pln">Listrik PLN</label>
+                                <label><a href="">Flight</a></label>
+                            </div>
+                            <div class="tab-button">
+                                <button>:::</button>
+                            </div>
+                        </div>
+                        <div>
+                            <input
+                                type="radio"
+                                name="top-up"
+                                id="pulsa"
+                                checked
+                            />
+                            <input type="radio" name="top-up" id="paket-data" />
+                            <input type="radio" name="top-up" id="paket-pln" />
+
+                            <div class="form-paket pulsa">pulsa form</div>
+                            <div class="form-paket paket-data">
+                                paket data form
+                            </div>
+                            <div class="form-paket paket-pln">
+                                paket pln form
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="kategori">
+                    <ul class="kategori-list">
+                        <li>Kategori</li>
+                        <li>Semua Promo</li>
+                        <li>Kesehatan</li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
