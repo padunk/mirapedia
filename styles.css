@@ -164,14 +164,16 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.kategori-pilihan {
-}
-
-.tagihan {
-}
-
-.form-tagihan > form {
+.kategori-produk {
     display: flex;
+    column-gap: 30px;
+    padding: 20px;
+}
+
+.produk {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .sub-judul {
